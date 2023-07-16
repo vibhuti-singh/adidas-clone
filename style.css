@@ -1,0 +1,998 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    background-color: red;
+   
+}
+.nav-1{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.responsive-list{
+  display: none;
+}
+.nav-2{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100%;
+    width: 15%;
+}
+.logo img{
+    height: 90px;
+}
+.options-head{
+    height: 100%;
+    width: 40%;
+  display: flex;
+  padding-top: 25px;
+}
+.options-head ul li{
+    list-style: none;
+}
+.options-head ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-option{
+    height: 100%;
+    width: 20%;
+}
+.search-upprr-part{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .search-upprr-part a{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .search-lower-part{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .search-lower-part p{
+    font-size: 20px;
+  }
+  button:hover{
+    color: grey;
+  }
+  
+  
+  #search{
+    display: none;
+  }
+  form{
+    display: flex;
+  }
+  input{
+    height: 90%;
+    border: none;
+    background-color: rgb(217, 217, 232);
+  }
+  form button{
+    border: none;
+    height: 90%;
+    width: 30%;
+    background-color: rgb(217, 217, 232);
+    padding: 2px;
+  }
+  .container-1{
+    height: 90vh;
+    width: 100%;
+    background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/in-ss23-eoss-red-hp-mh-d_tcm209-1039264.jpg");
+  background-size: contain;
+  display: flex;
+  align-items: center;
+ 
+  }
+  .c-1-left{
+    height: 60%;
+    width: 40%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+  .middle-c1-container{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   color: white;
+  }
+  .middle-c1-container button{
+    height: 14%;
+    width: 40%;
+    border: 2px solid black;
+    font-weight: bold;
+  }
+#c-1-middle-btn{
+  width: 50%;
+}
+.container-2{
+  height: 90vh;
+  width: 100%;
+  background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enIN/Images/in-ss23-bcci-test-jersey-reveal-hp-mh-image-d_tcm209-1029776.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+}
+.container-2-left{
+  height: 30%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.container-2-btn{
+  height: 60%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.container-2-btn button{
+  height: 45%;
+  width: 75%;
+  border: 2px solid black;
+  font-weight: bold;
+}
+#c-2-shopnow{
+  width: 60%;
+}
+.container-3{
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-3-1{
+  height: 33%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+.container-3-1 h2{
+  font-size: 35px;
+}
+.container-3-2{
+  height: 33%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+.c-3-hover{
+  height: 75%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+ }
+ .c-3-hover:hover{
+  border-bottom: 5px solid black;
+ }
+ .c-3-hover h3{
+  font-size: 35px;
+ }
+ .container-3-responsive{
+  display: none;
+ }
+ .container-4{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .c-4-upper{
+  height: 20%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ .c-4-upper-left{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .c-4-upper-right{
+  height: 50%;
+  width: 7%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .c-4-r-1{
+  height: 90%;
+  width: 45%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .c-4-r-1:hover{
+  background-color: black;
+  color: white;
+ }
+ .c-4-upper-left h3{
+  color: GREY;
+  font-size: 28px;
+ }
+ .c-4-upper-left H2{
+  font-size: 28PX;
+ }
+ .c-4-lower{
+  height: 80%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .c-4-lower-1{
+  height: 95%;
+  width: 24%;
+  background-image: url("images/c-4-l1.avif");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+ 
+ }
+ .c-4-lower-2{
+  height: 95%;
+  width: 24%;
+  background-image: url("images/c-4-l2.avif");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+ 
+ }
+ .c-4-lower-3{
+  height: 95%;
+  width: 24%;
+  background-image: url("images/c-4-l3.avif");
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+ 
+ }
+ .c-4-lower-0{
+  height: 95%;
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-between;
+ }
+ .c-4-lower-0 h3{
+  font-size: 25px;
+ }
+ .c-4-lower-0 button{
+  height: 15%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 18px;
+font-weight: bold;
+ }
+ .c-l1-lower{
+height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .c-l1-lower h5{
+font-size: 15px;
+ }
+ .c-5-upper-left{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .c-5-lower{
+  height: 80%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .c-5-lower-1{
+  height: 100%;
+  width: 24%;
+ }
+ .c5-box-1-upper{
+  height: 80%;
+  width: 100%;
+  background-image: url("images/c-5-b1.avif");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .c5-box-2-upper{
+  height: 80%;
+  width: 100%;
+  background-image: url("images/c-5-b2.avif");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .c5-box-3-upper{
+  height: 80%;
+  width: 100%;
+  background-image: url("images/c-5-b3.avif");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .c5-box-4-upper{
+  height: 80%;
+  width: 100%;
+  background-image: url("images/c-5-b4.avif");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+ .heart-icon{
+  height: 10%;
+  width: 98%;
+  display: flex;
+ justify-content: end;
+ align-items: center;
+}
+.price-tag{
+  background-color: white;
+  height: 7%;
+  width: 27%;
+font-size: 13px;
+margin-left: 5px;}
+
+.c-5-lower-1:hover{
+  border: 1px solid black;
+}
+.c-5-lower-1:hover .price-tag{
+ margin-bottom: 10px;
+  font-size: 15px;
+}
+.c5-box-lower{
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.c5-box-lower h6,p{
+  font-size: 13px;
+}
+.c5-box-lower p{
+  color: rgb(158, 158, 158);
+}
+.container-6{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.c-6-head{
+  height: 15%;
+  width: 85%;
+  display: flex;
+  align-items: center;
+}
+.c-6-head h2{
+  font-size: 35px;
+}
+.c-6-bottom{
+  height: 85%;
+  width: 85%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.c-6-b1{
+  height: 100%;
+  width: 24%;
+}
+.c-6-b1-upr{
+  height: 75%;
+  width: 100%;
+ background-size: cover;
+  background-image: url("images/c6-1.avif");
+}
+.c-6-b2-upr{
+  height: 75%;
+  width: 100%;
+ background-size: cover;
+  background-image: url("images/c6-2.avif");
+}
+.c-6-b3-upr{
+  height: 75%;
+  width: 100%;
+ background-size: cover;
+  background-image: url("images/c6-3.avif");
+}
+.c-6-b4-upr{
+  height: 75%;
+  width: 100%;
+ background-size: cover;
+  background-image: url("images/c6-4.avif");
+}
+.c-6-b1-lwr{
+  height: 22%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.c-6-b1-lwr h6{
+  font-size: 18px;
+}
+.c-6-b1-lwr button{
+  font-weight: bold;
+  width: 30%;
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.c-6-b1-lwr button:hover{
+  color: white;
+  background-color: black;
+}
+.c-7-upper-left{
+  width: 50%;
+  }
+  .c-7-upper-left h2{
+    font-size: 30PX;
+  }
+  .c7-box-1-upper{
+    height: 80%;
+    width: 100%;
+    background-image: url("images/C7-B1.avif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .c7-box-2-upper{
+    height: 80%;
+    width: 100%;
+    background-image: url("images/C7-B2.avif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .c7-box-3-upper{
+    height: 80%;
+    width: 100%;
+    background-image: url("images/C7-B3.avif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .c7-box-4-upper{
+    height: 80%;
+    width: 100%;
+    background-image: url("images/C7-B4.avif");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+  .c7-box-lower h6,p{
+    font-size: 13px;
+    margin-top: 7px;
+    font-weight: 300;
+  }
+  .c7-box-lower p{
+    color: rgb(163, 163, 163);
+  }
+  .container-8{
+    height: 80vh;
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4f4;
+    
+   }
+  .c8-stories{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .stories-left{
+    height: 80%;
+  width: 45%;
+  
+  }
+  .story-heading{
+    height: 30%;
+    width: 70%;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .paragraph{
+    height: 70%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .footer-c9{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive-c-9-1{
+    display: none;
+  }
+  .responsive-c-9-2{
+    width: 100%;
+    height: 10%;
+    display: none;
+  }
+  .res-9-2-l{
+    height: 100%;
+    width: 50%;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive-c-9-3{
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    display: none;
+   }
+   .responsive-c-9-3 ul li{
+    list-style: none;
+    margin-top: 15px;
+    font-size: 12px;
+   }
+  .footer-upper{
+    height: 20%;
+    width: 100%;
+    background-color:#ede734;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-upper span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 46%;
+    height: 50%;
+  font-size: 28px;
+  
+  }
+  .upr-ftr-btn{
+ height: 100%;
+width: 33%;
+border: 1px solid black;
+display: flex;
+align-items: center;
+
+  }
+  .ftr-btn{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:-3px;
+    left: -3px;
+    position: relative;
+  }
+  .footer-middle{
+    height: 60%;
+    width: 75%;
+    display: flex;
+  justify-content: center;
+
+  }
+  .footer-middle ul li h3{
+    font-size: 25px;
+    font-weight: bolder;
+   
+  }
+  .footer-middle ul li{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+.footer-middle ul{
+  width: 100%;
+ 
+}
+.ftr-ig{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+  .footer-lower{
+    height: 20%;
+    width: 100%;
+    background-color: #282c31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ftr-lwr-p1{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one{
+    height: 35%;
+    width: 25%;
+    border: none;
+    border-right: 1px solid rgb(168, 168, 168);
+    color: rgb(168, 168, 168);
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .onee{
+    height: 60%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(168, 168, 168);
+    font-size: 11px;
+  }
+  .ftr-lwr-p2{
+    height: 50%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(168, 168, 168);
+    font-size: 11px;
+  }
+
+  @media(max-width:760px){
+    form{
+        display: none;
+    }
+    .options-head{
+        display: none;
+    }
+    .search-upprr-part{
+        display: none;
+    }
+    #heart{
+
+      display: none;
+    }
+    #search{
+      display: block;
+    }
+    .responsive-list{
+      width: 15%;
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .responsive-list p{
+font-size: 30px;
+    }
+    .search-lower-part p{
+font-size: 25px;
+
+    }
+    .search-lower-part{
+      height: 100%;
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-2{
+height: 60px;
+    }
+    .logo img{
+      height: 60px;
+    }
+    .container-1{
+      height: 90vh;
+      background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/in-ss23-eoss-red-hp-mh-m_tcm209-1039262.jpg");
+background-size: cover;
+display: flex;
+align-items: end;
+justify-content: center;
+    }
+    .c-1-left{
+      height: 50%;
+      width: 90%;
+      justify-content: space-around;
+  }
+    .middle-c1-container{
+      width: 100%;
+    margin-bottom: 20px;}
+    .container-2{
+      background-image: url("https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_600,w_600/enIN/Images/in-ss23-bcci-test-jersey-reveal-hp-mh-image-m_tcm209-1029777.jpg");
+    }
+    .container-2-left{
+      width: 100%;
+      align-items: start;
+    }
+    .container-3{
+      height: 135vh;
+    }
+    .container-3-1{
+      width: 95%;
+      height: 5%;
+    }
+    .container-3-1 h2{
+      font-size: 20px;
+    }
+    .container-3-2{
+      height: 20%;
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+    }
+    .container-3-2 h3{
+      font-size: 25px;
+    }
+    .c-3-hover{
+  
+     width: 100%;
+    }
+    .container-3-responsive{
+      display: block;
+      width: 95%;
+    }
+    .container-3-responsive ul li{
+list-style: none;
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+    }
+    .container-3-responsive ul li p{
+      font-size: 20px;
+
+    }
+    .container-4{
+     height: 30vh;
+    }
+    .c-4-upper{
+      width: 100%;
+    }
+    .c-4-upper h2{
+      font-size: 18px;
+    }
+    .c-4-upper-left{
+      width: 50%;
+    }
+    .c-4-upper h3{
+      font-size: 18px;
+    }
+.c-4-lower-3{
+  display: none;
+}
+.c-4-lower{
+  width: 100%;
+}
+.c-4-lower-0{
+  width: 32%;
+}
+.c-4-lower-0 h3{
+  font-size: 20px;
+}
+.c-4-lower-1{
+  width: 32%;
+  background-image: url("images/c4-res-1.avif");
+  background-size: contain;
+}
+.c-4-lower-2{
+  width: 32%;
+  background-image: url("images/c4-res-2.avif");
+  background-size: contain;
+}
+.c-l1-lower h5{
+  font-size: 12px;
+}
+.c-4-lower-0 button p{
+  font-size: 12px;
+}
+.c-5-lower{
+  width: 100%;
+}
+.c-4-r-1{
+  font-size: 12px;
+}
+#c-5-responsive-div-none{
+  display: none;
+}
+.c-5-lower-1{
+  width: 32%;
+}
+#c-5-lower-res{
+  height: 30vh;
+}
+.c5-box-1-upper{
+  height: 80%;
+}
+.c5-box-2-upper{
+  height: 80%;
+}
+.c5-box-3-upper{
+  height: 80%;
+}
+.price-tag{
+  height: 15%;
+  width: 80%;
+}
+.heart-icon{
+  padding-top: 10px;
+  }
+  .container-6{
+    height: 100vh;
+  }
+  .c-6-head{
+    width: 100%;
+  }
+  .c-6-b1-upr{
+    height: 85%;
+  }
+   .c-6-b1-lwr{
+    height: 15%;
+   }
+   .c-6-b1-lwr button{
+    width: 22%;
+   }
+   #c-6-responsive{
+    display: block;
+    width: 100%;
+   }
+   .c-6-b1{
+    display: none;
+   }
+   #c-7-responsive-lower{
+    height: 40vh;
+       }
+   .c7-box-1-upper{
+    height: 50%;
+   }
+   .c7-box-2-upper{
+    height: 50%;
+   }
+   .c7-box-3-upper{
+    height: 50%;
+   }
+   .c7-box-4-upper{
+    height: 50%;
+   }
+   .container-8{
+    height: 130vh;
+   }
+   .c8-stories{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   }
+   .stories-left{
+    height: 49%;
+    width: 100%;
+  
+
+   }
+   .story-heading{
+    width: 100%;
+    font-size: 30px;
+   }
+   .paragraph{
+    font-size: 13px;
+   }
+   .footer-c9{
+    height: 90vh;
+   }
+   .footer-upper{
+    height: 30%;
+   }
+   .footer-upper span{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    font-size: 25px;
+   }
+   .ftr-btn{
+    font-size: 13px;
+   }
+   .upr-ftr-btn{
+    height: 65%;
+    width: 40%;
+   }
+   .responsive-c-9-1{
+    height: 10%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+   }
+   .responsive-c-9-2{
+    display: block;
+    display: flex;
+   }
+   .footer-middle{
+    display: none;
+   }
+   .responsive-c-9-3{
+  display: flex;
+   }
+   .ftr-lwr-p1{
+    width: 90%;
+   }
+   .ftr-lwr-p2{
+    width: 90%;
+   }
+  }
